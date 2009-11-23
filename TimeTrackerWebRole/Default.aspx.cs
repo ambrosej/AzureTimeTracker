@@ -18,7 +18,8 @@ public partial class Default_aspx : System.Web.UI.Page
     
     void Page_Load(object sender, EventArgs e)
     {
-        //Commit Test By vivek
+        //Commit test by vivek
+        Response.Write("~/TimeTracker/TimeEntry.aspx");
         Response.Redirect("~/TimeTracker/TimeEntry.aspx");
     }
 }
